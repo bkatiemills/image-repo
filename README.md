@@ -16,3 +16,4 @@ Visit `127.0.0.1:8080` in your browser (Chrome recommended), and click on some t
 
  - Each image or group of related images goes in its own directory
  - Each such directory contains a file `tags`; this file lists the tags associated with this image, one per line.
+ - `tags` file may also include an optional first line beginning with `!CSS!`; all text following this token will be applied as the `style` property of the image (useful for setting `background-color` for images with transparent backgrounds, for example).
